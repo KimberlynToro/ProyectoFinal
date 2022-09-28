@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import './variables/colores';
+@import './variables/extend';
+@import './variables/mixin';
+@import './variables/fontfamily';
+
+
+@import './secciones/header';
+@import './secciones/footer';
+
+.header{
+    &__logo{
+        width: 120px;
+    
+    &:hover{
+        transform: skew(15deg);
+        transition: 3s;
+      }
+    }
+    
+    .nav-link{
+        color: black;
+    }
+    .navbar-nav .nav-link.active{
+        color: aqua;
+    }
+    .navbar-toggler-icon{
+        color: aqua;
+    }
+    
+    .nav-link:focus, .nav-link:hover{
+        color: darkgoldenrod;
+    }
+
+}
