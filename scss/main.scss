@@ -336,8 +336,6 @@ h2 {
         padding: 15px;
         
     }
-<<<<<<< HEAD
-=======
 
     iframe{
         width: 465px;
@@ -350,6 +348,29 @@ h2 {
     section .newsletter{
         font-size: 15px;
     }
+
+}
+
+@media (max-width: 481px){
+
+    .imagenes {
+        width: 270px;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    iframe{
+        width: 300px;
+        height: 250px;
+    }
+
+    .slogan_h4 {
+        font-size: 20px;
+    }
+
 
 }
 
@@ -387,5 +408,4 @@ h2 {
 .grid-container img {
     height: 234px;
 }
->>>>>>> mediaquery
 }
