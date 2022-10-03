@@ -312,10 +312,6 @@ h2 {
         flex-wrap: wrap;
     }
 
-    main div {
-        margin: 1px;
-        padding: 18px;
-    }
 
     .grid-container {
         grid-template-columns: repeat(1,2fr);
@@ -341,8 +337,90 @@ h2 {
         
     }
 
+    iframe{
+        width: 465px;
+    }
 
+    section h2{
+        font-size: 20px;
+    }
 
+    section .newsletter{
+        font-size: 15px;
+    }
 
+}
 
+@media (max-width: 650px){
+    
+    iframe{
+        width: 300px;
+        height: 200px;
+    }
+
+    .mapa h3 {
+        font-size: 15px;
+    }
+
+    .imagenes {
+        width: 300px;
+    }
+
+    .titulo3 {
+        display: flex;
+        margin: 0;
+        justify-content: space-around;
+        padding: 0;
+        flex-wrap: nowrap;
+        font-size: 20px;
+    }
+
+    .mas-detalle {
+        text-decoration: none;
+        color: #000;
+        display: flex;
+        justify-content: center;
+        margin: 5px;
+        padding: 0px;
+    }
+
+    .slogan_h4 {
+        font-size: 20px;
+    }
+
+}
+
+@media (max-width: 375px){
+    section h3{
+        font-size: 15px;
+    }
+
+    .pedido h4 {
+        font-size: 10px;
+    }
+
+    .imagenes {
+        width: 270px;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    section .emailInicio {
+        width: 284px;
+        height: 39px;
+    }
+
+.card {
+    position: relative;
+    width: 237px;
+    height: 403px;
+    margin: 41px;
+}
+
+.grid-container img {
+    height: 234px;
+}
 }
